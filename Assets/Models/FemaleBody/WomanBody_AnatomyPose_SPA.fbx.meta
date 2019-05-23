@@ -1,0 +1,1395 @@
+fileFormatVersion: 2
+guid: 54c39ef23c705074b847fb8cf15f0fe4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 01_Antebrazo
+    100002: 01_Brazo
+    100004: 01_Cabeza
+    100006: 01_Cadera
+    100008: 01_Cara
+    100010: 01_Conjuntiva
+    100012: 01_Cuello
+    100014: 01_Esclera
+    100016: 01_Fosas nasales
+    100018: 01_Iris
+    100020: 01_Labio
+    100022: 01_Lacrimal
+    100024: 01_Mano
+    100026: 01_Pezon
+    100028: 01_Pie
+    100030: 01_Pierna
+    100032: 01_Pupila
+    100034: 01_Saco conjuntival
+    100036: 01_Torso
+    100038: "01_U\xF1as de las manos"
+    100040: "01_U\xF1as pies"
+    100042: 02_Antebrazo
+    100044: 02_Brazo
+    100046: 02_Cabeza
+    100048: 02_Cadera
+    100050: 02_Cara
+    100052: 02_Conjuntiva
+    100054: 02_Cuello
+    100056: 02_Esclera
+    100058: 02_Fosas nasales
+    100060: 02_Iris
+    100062: 02_Labio
+    100064: 02_Lacrimal
+    100066: 02_Mano
+    100068: 02_Pezon
+    100070: 02_Pie
+    100072: 02_Pierna
+    100074: 02_Pupila
+    100076: 02_Saco conjuntival
+    100078: 02_Torso
+    100080: 03_Brazos y manos
+    100082: 03_Caderas y piernas
+    100084: "03_Cart\xEDlago de las costillas"
+    100086: "03_Cart\xEDlago pelvis"
+    100088: 03_Columna
+    100090: 03_Costillas
+    100092: "03_Cr\xE1neo"
+    100094: 03_Dientes
+    100096: 03_Discos
+    100098: 03_Esternon
+    100100: 03_Hioides
+    100102: "03_Mand\xEDbula"
+    100104: 03_Sacrum
+    100106: 04_Cerebelo
+    100108: 04_Cuerpo calloso
+    100110: 04_Hemisferio derecho
+    100112: 04_Hemisferio izquierdo
+    100114: 04_Olfatorio
+    100116: 04_Pituitaria
+    100118: 04_Tallo cerebral
+    100120: 05_Bronquios
+    100122: "05_Coraz\xF3n"
+    100124: 05_Coronaria
+    100126: "05_Enc\xEDas"
+    100128: 05_Laringe
+    100130: 05_Lengua
+    100132: "05_L\xF3bulo"
+    100134: 05_Pulmon izquierdo
+    100136: "05_Pulm\xF3n derecho"
+    100138: 05_Timo
+    100140: 05_Tiroides
+    100142: 06_Bazo
+    100144: 06_Biliar
+    100146: 06_Colon
+    100148: "06_H\xEDgado"
+    100150: 06_Intestinos
+    100152: 07_Ovario
+    100154: "07_Ri\xF1\xF3n"
+    100156: 07_Suprarrenal
+    100158: "07_Ur\xE9ter"
+    100160: 07_Vejiga
+    100162: "07_\xFAtero"
+    100164: //RootNode
+    100166: 01_Abdomen
+    100168: 01_Dorso
+    100170: 01_Muslo
+    100172: "01_Pelvis / Perin\xE9"
+    100174: "01_T\xF3rax"
+    100176: 02_Buccinador
+    100178: "02_Cigom\xE1tico mayor"
+    100180: "02_Cigom\xE1tico menor"
+    100182: 02_Depresor del labio inferior
+    100184: "02_Depresor del \xE1ngulo de la boca"
+    100186: 02_Dorsal Ancho
+    100188: 02_Elevador del ala de la nariz
+    100190: 02_Elevador del labio superior
+    100192: 02_Esternocleidomastoideo
+    100194: 02_Esternotiroideo
+    100196: "02_Gl\xFAteo Mayor"
+    100198: 02_M. recto del abdomen
+    100200: 02_Masetero
+    100202: 02_Mentoniano
+    100204: 02_Nasa
+    100206: 02_Occipitoprontal
+    100208: 02_Omohioideo
+    100210: 02_Orbicular de la Boca
+    100212: 02_Orbicular del ojo
+    100214: "02_Pr\xF3cer"
+    100216: 02_Risorio
+    100218: 02_Temporal
+    100220: 02_Trapecio
+    100222: "03_Clav\xEDcula"
+    100224: 03_Coxal Derecho
+    100226: 03_Coxal Izquierdo
+    100228: "03_Esc\xE1pula"
+    100230: 03_Falanges
+    100232: 03_Falanges del pie
+    100234: "03_F\xE9mur"
+    100236: "03_F\xEDbula"
+    100238: 03_Huesos del Carpo
+    100240: 03_Huesos del tarso
+    100242: "03_H\xFAmero"
+    100244: 03_Metacarpianos
+    100246: 03_Metatarsianos
+    100248: 03_Radio
+    100250: "03_Rot\xFAla"
+    100252: 03_Tibia
+    100254: 03_Ulna
+    100256: "03_Vertebras tor\xE1cicas"
+    100258: "03_V\xE9rtebras cervicales"
+    100260: "03_V\xE9rtebras lumbares"
+    100262: 05_Cartilago cricoides
+    100264: "05_Cart\xEDlago ep\xEDglotis"
+    100266: "05_Gl\xE1ndula mamaria derecha"
+    100268: "05_Gl\xE1ndula mamaria izquierda"
+    100270: "05_Tr\xE1quea"
+    400000: 01_Antebrazo
+    400002: 01_Brazo
+    400004: 01_Cabeza
+    400006: 01_Cadera
+    400008: 01_Cara
+    400010: 01_Conjuntiva
+    400012: 01_Cuello
+    400014: 01_Esclera
+    400016: 01_Fosas nasales
+    400018: 01_Iris
+    400020: 01_Labio
+    400022: 01_Lacrimal
+    400024: 01_Mano
+    400026: 01_Pezon
+    400028: 01_Pie
+    400030: 01_Pierna
+    400032: 01_Pupila
+    400034: 01_Saco conjuntival
+    400036: 01_Torso
+    400038: "01_U\xF1as de las manos"
+    400040: "01_U\xF1as pies"
+    400042: 02_Antebrazo
+    400044: 02_Brazo
+    400046: 02_Cabeza
+    400048: 02_Cadera
+    400050: 02_Cara
+    400052: 02_Conjuntiva
+    400054: 02_Cuello
+    400056: 02_Esclera
+    400058: 02_Fosas nasales
+    400060: 02_Iris
+    400062: 02_Labio
+    400064: 02_Lacrimal
+    400066: 02_Mano
+    400068: 02_Pezon
+    400070: 02_Pie
+    400072: 02_Pierna
+    400074: 02_Pupila
+    400076: 02_Saco conjuntival
+    400078: 02_Torso
+    400080: 03_Brazos y manos
+    400082: 03_Caderas y piernas
+    400084: "03_Cart\xEDlago de las costillas"
+    400086: "03_Cart\xEDlago pelvis"
+    400088: 03_Columna
+    400090: 03_Costillas
+    400092: "03_Cr\xE1neo"
+    400094: 03_Dientes
+    400096: 03_Discos
+    400098: 03_Esternon
+    400100: 03_Hioides
+    400102: "03_Mand\xEDbula"
+    400104: 03_Sacrum
+    400106: 04_Cerebelo
+    400108: 04_Cuerpo calloso
+    400110: 04_Hemisferio derecho
+    400112: 04_Hemisferio izquierdo
+    400114: 04_Olfatorio
+    400116: 04_Pituitaria
+    400118: 04_Tallo cerebral
+    400120: 05_Bronquios
+    400122: "05_Coraz\xF3n"
+    400124: 05_Coronaria
+    400126: "05_Enc\xEDas"
+    400128: 05_Laringe
+    400130: 05_Lengua
+    400132: "05_L\xF3bulo"
+    400134: 05_Pulmon izquierdo
+    400136: "05_Pulm\xF3n derecho"
+    400138: 05_Timo
+    400140: 05_Tiroides
+    400142: 06_Bazo
+    400144: 06_Biliar
+    400146: 06_Colon
+    400148: "06_H\xEDgado"
+    400150: 06_Intestinos
+    400152: 07_Ovario
+    400154: "07_Ri\xF1\xF3n"
+    400156: 07_Suprarrenal
+    400158: "07_Ur\xE9ter"
+    400160: 07_Vejiga
+    400162: "07_\xFAtero"
+    400164: //RootNode
+    400166: 01_Abdomen
+    400168: 01_Dorso
+    400170: 01_Muslo
+    400172: "01_Pelvis / Perin\xE9"
+    400174: "01_T\xF3rax"
+    400176: 02_Buccinador
+    400178: "02_Cigom\xE1tico mayor"
+    400180: "02_Cigom\xE1tico menor"
+    400182: 02_Depresor del labio inferior
+    400184: "02_Depresor del \xE1ngulo de la boca"
+    400186: 02_Dorsal Ancho
+    400188: 02_Elevador del ala de la nariz
+    400190: 02_Elevador del labio superior
+    400192: 02_Esternocleidomastoideo
+    400194: 02_Esternotiroideo
+    400196: "02_Gl\xFAteo Mayor"
+    400198: 02_M. recto del abdomen
+    400200: 02_Masetero
+    400202: 02_Mentoniano
+    400204: 02_Nasa
+    400206: 02_Occipitoprontal
+    400208: 02_Omohioideo
+    400210: 02_Orbicular de la Boca
+    400212: 02_Orbicular del ojo
+    400214: "02_Pr\xF3cer"
+    400216: 02_Risorio
+    400218: 02_Temporal
+    400220: 02_Trapecio
+    400222: "03_Clav\xEDcula"
+    400224: 03_Coxal Derecho
+    400226: 03_Coxal Izquierdo
+    400228: "03_Esc\xE1pula"
+    400230: 03_Falanges
+    400232: 03_Falanges del pie
+    400234: "03_F\xE9mur"
+    400236: "03_F\xEDbula"
+    400238: 03_Huesos del Carpo
+    400240: 03_Huesos del tarso
+    400242: "03_H\xFAmero"
+    400244: 03_Metacarpianos
+    400246: 03_Metatarsianos
+    400248: 03_Radio
+    400250: "03_Rot\xFAla"
+    400252: 03_Tibia
+    400254: 03_Ulna
+    400256: "03_Vertebras tor\xE1cicas"
+    400258: "03_V\xE9rtebras cervicales"
+    400260: "03_V\xE9rtebras lumbares"
+    400262: 05_Cartilago cricoides
+    400264: "05_Cart\xEDlago ep\xEDglotis"
+    400266: "05_Gl\xE1ndula mamaria derecha"
+    400268: "05_Gl\xE1ndula mamaria izquierda"
+    400270: "05_Tr\xE1quea"
+    2100000: CorpusCallosum.001
+    2100002: Pituitary.001
+    2100004: RightCerebrum.001
+    2100006: Olfactory.001
+    2100008: BrainStem.001
+    2100010: Cerebellum.001
+    2100012: LeftCerebrum.001
+    2100014: 3_SkinForearm_Muscles
+    2100016: 1_SkinFace_Muscles
+    2100018: 5_Iris
+    2100020: Ribs
+    2100022: HipCartilage
+    2100024: 2_Nipple
+    2100026: Discs
+    2100028: 5_Sclera
+    2100030: 0_bronchus
+    2100032: 2_SkinNeck
+    2100034: Spine
+    2100036: Hyoid
+    2100038: 3_thyroid
+    2100040: 2_SkinHead
+    2100042: 3_thymus
+    2100044: 4_Tongue
+    2100046: 3_Toenail_Muscles
+    2100048: 3_SkinFoot_Muscles
+    2100050: HipsLegs
+    2100052: 1_lLung
+    2100054: 1_Lip_Muscles
+    2100056: 3_gut
+    2100058: 2_bladder
+    2100060: 3_SkinArm_Muscles
+    2100062: 3_SkinLeg_Muscles
+    2100064: 1_EyeSocket
+    2100066: 3_SkinFoot
+    2100068: 2_SkinHip
+    2100070: 3_larynx
+    2100072: 2_kidney
+    2100074: 7_Tear
+    2100076: 1_Lip
+    2100078: 2_heart
+    2100080: 2_SkinNeck_Muscles
+    2100082: RibCartilage
+    2100084: 1_Nostril
+    2100086: 5_Sclera_Muscles
+    2100088: 5_Lacrimal_Muscles
+    2100090: Mandible
+    2100092: 1_EyeSocket_Muscles
+    2100094: 2_SkinHip_Muscles
+    2100096: 3_SkinLeg
+    2100098: 5_uterus
+    2100100: 2_SkinTorso
+    2100102: 2_SkinHead_Muscles
+    2100104: 3_Fingernail
+    2100106: 5_Pupil
+    2100108: Cranium
+    2100110: 3_SkinHand_Muscles
+    2100112: 4_Gums_Muscles
+    2100114: 1_biliary
+    2100116: 7_Tear_Muscles
+    2100118: 1_rLung
+    2100120: ArmsHands
+    2100122: 2_adrenal
+    2100124: 2_coronary
+    2100126: 3_SkinHand
+    2100128: 1_Nostril_Muscles
+    2100130: 5_Lacrimal
+    2100132: 5_Iris_Muscles
+    2100134: 1_spleen
+    2100136: 3_SkinForearm
+    2100138: 3_SkinArm
+    2100140: 5_ovary
+    2100142: 4_colon
+    2100144: 2_ureter
+    2100146: 2_Nipple_Muscles
+    2100148: Sacrum
+    2100150: 1_liver
+    2100152: Sternum
+    2100154: 1_SkinFace
+    2100156: 5_Pupil_Muscles
+    2100158: lobule
+    2100160: 2_SkinTorso_Muscles
+    2100162: 4_Teeth
+    2300000: 01_Antebrazo
+    2300002: 01_Brazo
+    2300004: 01_Cabeza
+    2300006: 01_Cadera
+    2300008: 01_Cara
+    2300010: 01_Conjuntiva
+    2300012: 01_Cuello
+    2300014: 01_Esclera
+    2300016: 01_Fosas nasales
+    2300018: 01_Iris
+    2300020: 01_Labio
+    2300022: 01_Lacrimal
+    2300024: 01_Mano
+    2300026: 01_Pezon
+    2300028: 01_Pie
+    2300030: 01_Pierna
+    2300032: 01_Pupila
+    2300034: 01_Saco conjuntival
+    2300036: 01_Torso
+    2300038: "01_U\xF1as de las manos"
+    2300040: "01_U\xF1as pies"
+    2300042: 02_Antebrazo
+    2300044: 02_Brazo
+    2300046: 02_Cabeza
+    2300048: 02_Cadera
+    2300050: 02_Cara
+    2300052: 02_Conjuntiva
+    2300054: 02_Cuello
+    2300056: 02_Esclera
+    2300058: 02_Fosas nasales
+    2300060: 02_Iris
+    2300062: 02_Labio
+    2300064: 02_Lacrimal
+    2300066: 02_Mano
+    2300068: 02_Pezon
+    2300070: 02_Pie
+    2300072: 02_Pierna
+    2300074: 02_Pupila
+    2300076: 02_Saco conjuntival
+    2300078: 02_Torso
+    2300080: 03_Brazos y manos
+    2300082: 03_Caderas y piernas
+    2300084: "03_Cart\xEDlago de las costillas"
+    2300086: "03_Cart\xEDlago pelvis"
+    2300088: 03_Columna
+    2300090: 03_Costillas
+    2300092: "03_Cr\xE1neo"
+    2300094: 03_Dientes
+    2300096: 03_Discos
+    2300098: 03_Esternon
+    2300100: 03_Hioides
+    2300102: "03_Mand\xEDbula"
+    2300104: 03_Sacrum
+    2300106: 04_Cerebelo
+    2300108: 04_Cuerpo calloso
+    2300110: 04_Hemisferio derecho
+    2300112: 04_Hemisferio izquierdo
+    2300114: 04_Olfatorio
+    2300116: 04_Pituitaria
+    2300118: 04_Tallo cerebral
+    2300120: 05_Bronquios
+    2300122: "05_Coraz\xF3n"
+    2300124: 05_Coronaria
+    2300126: "05_Enc\xEDas"
+    2300128: 05_Laringe
+    2300130: 05_Lengua
+    2300132: "05_L\xF3bulo"
+    2300134: 05_Pulmon izquierdo
+    2300136: "05_Pulm\xF3n derecho"
+    2300138: 05_Timo
+    2300140: 05_Tiroides
+    2300142: 06_Bazo
+    2300144: 06_Biliar
+    2300146: 06_Colon
+    2300148: "06_H\xEDgado"
+    2300150: 06_Intestinos
+    2300152: 07_Ovario
+    2300154: "07_Ri\xF1\xF3n"
+    2300156: 07_Suprarrenal
+    2300158: "07_Ur\xE9ter"
+    2300160: 07_Vejiga
+    2300162: "07_\xFAtero"
+    2300164: 01_Abdomen
+    2300166: 01_Dorso
+    2300168: 01_Muslo
+    2300170: "01_Pelvis / Perin\xE9"
+    2300172: "01_T\xF3rax"
+    2300174: 02_Buccinador
+    2300176: "02_Cigom\xE1tico mayor"
+    2300178: "02_Cigom\xE1tico menor"
+    2300180: 02_Depresor del labio inferior
+    2300182: "02_Depresor del \xE1ngulo de la boca"
+    2300184: 02_Dorsal Ancho
+    2300186: 02_Elevador del ala de la nariz
+    2300188: 02_Elevador del labio superior
+    2300190: 02_Esternocleidomastoideo
+    2300192: 02_Esternotiroideo
+    2300194: "02_Gl\xFAteo Mayor"
+    2300196: 02_M. recto del abdomen
+    2300198: 02_Masetero
+    2300200: 02_Mentoniano
+    2300202: 02_Nasa
+    2300204: 02_Occipitoprontal
+    2300206: 02_Omohioideo
+    2300208: 02_Orbicular de la Boca
+    2300210: 02_Orbicular del ojo
+    2300212: "02_Pr\xF3cer"
+    2300214: 02_Risorio
+    2300216: 02_Temporal
+    2300218: 02_Trapecio
+    2300220: "03_Clav\xEDcula"
+    2300222: 03_Coxal Derecho
+    2300224: 03_Coxal Izquierdo
+    2300226: "03_Esc\xE1pula"
+    2300228: 03_Falanges
+    2300230: 03_Falanges del pie
+    2300232: "03_F\xE9mur"
+    2300234: "03_F\xEDbula"
+    2300236: 03_Huesos del Carpo
+    2300238: 03_Huesos del tarso
+    2300240: "03_H\xFAmero"
+    2300242: 03_Metacarpianos
+    2300244: 03_Metatarsianos
+    2300246: 03_Radio
+    2300248: "03_Rot\xFAla"
+    2300250: 03_Tibia
+    2300252: 03_Ulna
+    2300254: "03_Vertebras tor\xE1cicas"
+    2300256: "03_V\xE9rtebras cervicales"
+    2300258: "03_V\xE9rtebras lumbares"
+    2300260: 05_Cartilago cricoides
+    2300262: "05_Cart\xEDlago ep\xEDglotis"
+    2300264: "05_Gl\xE1ndula mamaria derecha"
+    2300266: "05_Gl\xE1ndula mamaria izquierda"
+    2300268: "05_Tr\xE1quea"
+    3300000: 01_Antebrazo
+    3300002: 01_Brazo
+    3300004: 01_Cabeza
+    3300006: 01_Cadera
+    3300008: 01_Cara
+    3300010: 01_Conjuntiva
+    3300012: 01_Cuello
+    3300014: 01_Esclera
+    3300016: 01_Fosas nasales
+    3300018: 01_Iris
+    3300020: 01_Labio
+    3300022: 01_Lacrimal
+    3300024: 01_Mano
+    3300026: 01_Pezon
+    3300028: 01_Pie
+    3300030: 01_Pierna
+    3300032: 01_Pupila
+    3300034: 01_Saco conjuntival
+    3300036: 01_Torso
+    3300038: "01_U\xF1as de las manos"
+    3300040: "01_U\xF1as pies"
+    3300042: 02_Antebrazo
+    3300044: 02_Brazo
+    3300046: 02_Cabeza
+    3300048: 02_Cadera
+    3300050: 02_Cara
+    3300052: 02_Conjuntiva
+    3300054: 02_Cuello
+    3300056: 02_Esclera
+    3300058: 02_Fosas nasales
+    3300060: 02_Iris
+    3300062: 02_Labio
+    3300064: 02_Lacrimal
+    3300066: 02_Mano
+    3300068: 02_Pezon
+    3300070: 02_Pie
+    3300072: 02_Pierna
+    3300074: 02_Pupila
+    3300076: 02_Saco conjuntival
+    3300078: 02_Torso
+    3300080: 03_Brazos y manos
+    3300082: 03_Caderas y piernas
+    3300084: "03_Cart\xEDlago de las costillas"
+    3300086: "03_Cart\xEDlago pelvis"
+    3300088: 03_Columna
+    3300090: 03_Costillas
+    3300092: "03_Cr\xE1neo"
+    3300094: 03_Dientes
+    3300096: 03_Discos
+    3300098: 03_Esternon
+    3300100: 03_Hioides
+    3300102: "03_Mand\xEDbula"
+    3300104: 03_Sacrum
+    3300106: 04_Cerebelo
+    3300108: 04_Cuerpo calloso
+    3300110: 04_Hemisferio derecho
+    3300112: 04_Hemisferio izquierdo
+    3300114: 04_Olfatorio
+    3300116: 04_Pituitaria
+    3300118: 04_Tallo cerebral
+    3300120: 05_Bronquios
+    3300122: "05_Coraz\xF3n"
+    3300124: 05_Coronaria
+    3300126: "05_Enc\xEDas"
+    3300128: 05_Laringe
+    3300130: 05_Lengua
+    3300132: "05_L\xF3bulo"
+    3300134: 05_Pulmon izquierdo
+    3300136: "05_Pulm\xF3n derecho"
+    3300138: 05_Timo
+    3300140: 05_Tiroides
+    3300142: 06_Bazo
+    3300144: 06_Biliar
+    3300146: 06_Colon
+    3300148: "06_H\xEDgado"
+    3300150: 06_Intestinos
+    3300152: 07_Ovario
+    3300154: "07_Ri\xF1\xF3n"
+    3300156: 07_Suprarrenal
+    3300158: "07_Ur\xE9ter"
+    3300160: 07_Vejiga
+    3300162: "07_\xFAtero"
+    3300164: 01_Abdomen
+    3300166: 01_Dorso
+    3300168: 01_Muslo
+    3300170: "01_Pelvis / Perin\xE9"
+    3300172: "01_T\xF3rax"
+    3300174: 02_Buccinador
+    3300176: "02_Cigom\xE1tico mayor"
+    3300178: "02_Cigom\xE1tico menor"
+    3300180: 02_Depresor del labio inferior
+    3300182: "02_Depresor del \xE1ngulo de la boca"
+    3300184: 02_Dorsal Ancho
+    3300186: 02_Elevador del ala de la nariz
+    3300188: 02_Elevador del labio superior
+    3300190: 02_Esternocleidomastoideo
+    3300192: 02_Esternotiroideo
+    3300194: "02_Gl\xFAteo Mayor"
+    3300196: 02_M. recto del abdomen
+    3300198: 02_Masetero
+    3300200: 02_Mentoniano
+    3300202: 02_Nasa
+    3300204: 02_Occipitoprontal
+    3300206: 02_Omohioideo
+    3300208: 02_Orbicular de la Boca
+    3300210: 02_Orbicular del ojo
+    3300212: "02_Pr\xF3cer"
+    3300214: 02_Risorio
+    3300216: 02_Temporal
+    3300218: 02_Trapecio
+    3300220: "03_Clav\xEDcula"
+    3300222: 03_Coxal Derecho
+    3300224: 03_Coxal Izquierdo
+    3300226: "03_Esc\xE1pula"
+    3300228: 03_Falanges
+    3300230: 03_Falanges del pie
+    3300232: "03_F\xE9mur"
+    3300234: "03_F\xEDbula"
+    3300236: 03_Huesos del Carpo
+    3300238: 03_Huesos del tarso
+    3300240: "03_H\xFAmero"
+    3300242: 03_Metacarpianos
+    3300244: 03_Metatarsianos
+    3300246: 03_Radio
+    3300248: "03_Rot\xFAla"
+    3300250: 03_Tibia
+    3300252: 03_Ulna
+    3300254: "03_Vertebras tor\xE1cicas"
+    3300256: "03_V\xE9rtebras cervicales"
+    3300258: "03_V\xE9rtebras lumbares"
+    3300260: 05_Cartilago cricoides
+    3300262: "05_Cart\xEDlago ep\xEDglotis"
+    3300264: "05_Gl\xE1ndula mamaria derecha"
+    3300266: "05_Gl\xE1ndula mamaria izquierda"
+    3300268: "05_Tr\xE1quea"
+    4300000: 04_Cuerpo calloso
+    4300002: 04_Pituitaria
+    4300004: 04_Hemisferio derecho
+    4300006: 04_Olfatorio
+    4300008: 04_Tallo cerebral
+    4300010: 04_Cerebelo
+    4300012: 04_Hemisferio izquierdo
+    4300014: 02_Antebrazo
+    4300016: 02_Cara
+    4300018: 01_Iris
+    4300020: 03_Costillas
+    4300022: "03_Cart\xEDlago pelvis"
+    4300024: 01_Pezon
+    4300026: 03_Discos
+    4300028: 01_Esclera
+    4300030: 05_Bronquios
+    4300032: 01_Cuello
+    4300034: 03_Columna
+    4300036: 03_Hioides
+    4300038: 05_Tiroides
+    4300040: 01_Cabeza
+    4300042: 05_Timo
+    4300044: 05_Lengua
+    4300046: "01_U\xF1as pies"
+    4300048: 02_Pie
+    4300050: 03_Caderas y piernas
+    4300052: 05_Pulmon izquierdo
+    4300054: 02_Labio
+    4300056: 06_Intestinos
+    4300058: 07_Vejiga
+    4300060: 02_Brazo
+    4300062: 02_Pierna
+    4300064: 01_Saco conjuntival
+    4300066: 01_Pie
+    4300068: 01_Cadera
+    4300070: 05_Laringe
+    4300072: "07_Ri\xF1\xF3n"
+    4300074: 01_Conjuntiva
+    4300076: 01_Labio
+    4300078: "05_Coraz\xF3n"
+    4300080: 02_Cuello
+    4300082: "03_Cart\xEDlago de las costillas"
+    4300084: 01_Fosas nasales
+    4300086: 02_Esclera
+    4300088: 02_Lacrimal
+    4300090: "03_Mand\xEDbula"
+    4300092: 02_Saco conjuntival
+    4300094: 02_Cadera
+    4300096: 01_Pierna
+    4300098: "07_\xFAtero"
+    4300100: 01_Torso
+    4300102: 02_Cabeza
+    4300104: "01_U\xF1as de las manos"
+    4300106: 01_Pupila
+    4300108: "03_Cr\xE1neo"
+    4300110: 02_Mano
+    4300112: "05_Enc\xEDas"
+    4300114: 06_Biliar
+    4300116: 02_Conjuntiva
+    4300118: "05_Pulm\xF3n derecho"
+    4300120: 03_Brazos y manos
+    4300122: 07_Suprarrenal
+    4300124: 05_Coronaria
+    4300126: 01_Mano
+    4300128: 02_Fosas nasales
+    4300130: 01_Lacrimal
+    4300132: 02_Iris
+    4300134: 06_Bazo
+    4300136: 01_Antebrazo
+    4300138: 01_Brazo
+    4300140: 07_Ovario
+    4300142: 06_Colon
+    4300144: "07_Ur\xE9ter"
+    4300146: 02_Pezon
+    4300148: 03_Sacrum
+    4300150: "06_H\xEDgado"
+    4300152: 03_Esternon
+    4300154: 01_Cara
+    4300156: 02_Pupila
+    4300158: "05_L\xF3bulo"
+    4300160: 02_Torso
+    4300162: 03_Dientes
+    4300164: 05_Cartilago cricoides
+    4300166: "05_Cart\xEDlago ep\xEDglotis"
+    4300168: "05_Gl\xE1ndula mamaria derecha"
+    4300170: "03_V\xE9rtebras lumbares"
+    4300172: "03_V\xE9rtebras cervicales"
+    4300174: 03_Coxal Izquierdo
+    4300176: 03_Falanges del pie
+    4300178: 03_Metatarsianos
+    4300180: "03_F\xEDbula"
+    4300182: 03_Tibia
+    4300184: "03_Rot\xFAla"
+    4300186: "03_F\xE9mur"
+    4300188: 03_Coxal Derecho
+    4300190: 03_Radio
+    4300192: 03_Ulna
+    4300194: 03_Metacarpianos
+    4300196: 03_Huesos del Carpo
+    4300198: "03_H\xFAmero"
+    4300200: "03_Clav\xEDcula"
+    4300202: "03_Esc\xE1pula"
+    4300204: "02_Gl\xFAteo Mayor"
+    4300206: 02_Trapecio
+    4300208: 02_Dorsal Ancho
+    4300210: 02_M. recto del abdomen
+    4300212: 02_Esternocleidomastoideo
+    4300214: 02_Omohioideo
+    4300216: 02_Esternotiroideo
+    4300218: 02_Risorio
+    4300220: 02_Buccinador
+    4300222: 02_Masetero
+    4300224: "02_Depresor del \xE1ngulo de la boca"
+    4300226: 02_Temporal
+    4300228: 02_Depresor del labio inferior
+    4300230: 02_Mentoniano
+    4300232: "02_Cigom\xE1tico mayor"
+    4300234: "02_Cigom\xE1tico menor"
+    4300236: 02_Elevador del labio superior
+    4300238: 02_Elevador del ala de la nariz
+    4300240: 02_Nasa
+    4300242: 02_Orbicular de la Boca
+    4300244: "02_Pr\xF3cer"
+    4300246: 02_Orbicular del ojo
+    4300248: 02_Occipitoprontal
+    4300250: 01_Abdomen
+    4300252: 01_Dorso
+    4300254: "05_Tr\xE1quea"
+    4300256: "03_Vertebras tor\xE1cicas"
+    4300258: 03_Huesos del tarso
+    4300260: "01_Pelvis / Perin\xE9"
+    4300262: 01_Muslo
+    4300264: "01_T\xF3rax"
+    4300266: 03_Falanges
+    4300268: "05_Gl\xE1ndula mamaria izquierda"
+    6400000: 01_Antebrazo
+    6400002: 01_Brazo
+    6400004: 01_Cabeza
+    6400006: 01_Cadera
+    6400008: 01_Cara
+    6400010: 01_Conjuntiva
+    6400012: 01_Cuello
+    6400014: 01_Esclera
+    6400016: 01_Fosas nasales
+    6400018: 01_Iris
+    6400020: 01_Labio
+    6400022: 01_Lacrimal
+    6400024: 01_Mano
+    6400026: 01_Pezon
+    6400028: 01_Pie
+    6400030: 01_Pierna
+    6400032: 01_Pupila
+    6400034: 01_Saco conjuntival
+    6400036: 01_Torso
+    6400038: "01_U\xF1as de las manos"
+    6400040: "01_U\xF1as pies"
+    6400042: 02_Antebrazo
+    6400044: 02_Brazo
+    6400046: 02_Cabeza
+    6400048: 02_Cadera
+    6400050: 02_Cara
+    6400052: 02_Conjuntiva
+    6400054: 02_Cuello
+    6400056: 02_Esclera
+    6400058: 02_Fosas nasales
+    6400060: 02_Iris
+    6400062: 02_Labio
+    6400064: 02_Lacrimal
+    6400066: 02_Mano
+    6400068: 02_Pezon
+    6400070: 02_Pie
+    6400072: 02_Pierna
+    6400074: 02_Pupila
+    6400076: 02_Saco conjuntival
+    6400078: 02_Torso
+    6400080: 03_Brazos y manos
+    6400082: 03_Caderas y piernas
+    6400084: "03_Cart\xEDlago de las costillas"
+    6400086: "03_Cart\xEDlago pelvis"
+    6400088: 03_Columna
+    6400090: 03_Costillas
+    6400092: "03_Cr\xE1neo"
+    6400094: 03_Dientes
+    6400096: 03_Discos
+    6400098: 03_Esternon
+    6400100: 03_Hioides
+    6400102: "03_Mand\xEDbula"
+    6400104: 03_Sacrum
+    6400106: 04_Cerebelo
+    6400108: 04_Cuerpo calloso
+    6400110: 04_Hemisferio derecho
+    6400112: 04_Hemisferio izquierdo
+    6400114: 04_Olfatorio
+    6400116: 04_Pituitaria
+    6400118: 04_Tallo cerebral
+    6400120: 05_Bronquios
+    6400122: "05_Coraz\xF3n"
+    6400124: 05_Coronaria
+    6400126: "05_Enc\xEDas"
+    6400128: 05_Laringe
+    6400130: 05_Lengua
+    6400132: "05_L\xF3bulo"
+    6400134: 05_Pulmon izquierdo
+    6400136: "05_Pulm\xF3n derecho"
+    6400138: 05_Timo
+    6400140: 05_Tiroides
+    6400142: 06_Bazo
+    6400144: 06_Biliar
+    6400146: 06_Colon
+    6400148: "06_H\xEDgado"
+    6400150: 06_Intestinos
+    6400152: 07_Ovario
+    6400154: "07_Ri\xF1\xF3n"
+    6400156: 07_Suprarrenal
+    6400158: "07_Ur\xE9ter"
+    6400160: 07_Vejiga
+    6400162: "07_\xFAtero"
+    6400164: 01_Abdomen
+    6400166: 01_Dorso
+    6400168: 01_Muslo
+    6400170: "01_Pelvis / Perin\xE9"
+    6400172: "01_T\xF3rax"
+    6400174: 02_Buccinador
+    6400176: "02_Cigom\xE1tico mayor"
+    6400178: "02_Cigom\xE1tico menor"
+    6400180: 02_Depresor del labio inferior
+    6400182: "02_Depresor del \xE1ngulo de la boca"
+    6400184: 02_Dorsal Ancho
+    6400186: 02_Elevador del ala de la nariz
+    6400188: 02_Elevador del labio superior
+    6400190: 02_Esternocleidomastoideo
+    6400192: 02_Esternotiroideo
+    6400194: "02_Gl\xFAteo Mayor"
+    6400196: 02_M. recto del abdomen
+    6400198: 02_Masetero
+    6400200: 02_Mentoniano
+    6400202: 02_Nasa
+    6400204: 02_Occipitoprontal
+    6400206: 02_Omohioideo
+    6400208: 02_Orbicular de la Boca
+    6400210: 02_Orbicular del ojo
+    6400212: "02_Pr\xF3cer"
+    6400214: 02_Risorio
+    6400216: 02_Temporal
+    6400218: 02_Trapecio
+    6400220: "03_Clav\xEDcula"
+    6400222: 03_Coxal Derecho
+    6400224: 03_Coxal Izquierdo
+    6400226: "03_Esc\xE1pula"
+    6400228: 03_Falanges
+    6400230: 03_Falanges del pie
+    6400232: "03_F\xE9mur"
+    6400234: "03_F\xEDbula"
+    6400236: 03_Huesos del Carpo
+    6400238: 03_Huesos del tarso
+    6400240: "03_H\xFAmero"
+    6400242: 03_Metacarpianos
+    6400244: 03_Metatarsianos
+    6400246: 03_Radio
+    6400248: "03_Rot\xFAla"
+    6400250: 03_Tibia
+    6400252: 03_Ulna
+    6400254: "03_Vertebras tor\xE1cicas"
+    6400256: "03_V\xE9rtebras cervicales"
+    6400258: "03_V\xE9rtebras lumbares"
+    6400260: 05_Cartilago cricoides
+    6400262: "05_Cart\xEDlago ep\xEDglotis"
+    6400264: "05_Gl\xE1ndula mamaria derecha"
+    6400266: "05_Gl\xE1ndula mamaria izquierda"
+    6400268: "05_Tr\xE1quea"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0_bronchus
+    second: {fileID: 2100000, guid: 734b5b47c76803e44a478e6a3fb679d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_EyeSocket
+    second: {fileID: 2100000, guid: bb44db8271edf4d42b8f4f723d2d2901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_EyeSocket_Muscles
+    second: {fileID: 2100000, guid: cc5a85c75e0e243419311e5a16c5592e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_Lip
+    second: {fileID: 2100000, guid: bb44db8271edf4d42b8f4f723d2d2901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_Lip_Muscles
+    second: {fileID: 2100000, guid: cc5a85c75e0e243419311e5a16c5592e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_Nostril
+    second: {fileID: 2100000, guid: bb44db8271edf4d42b8f4f723d2d2901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_Nostril_Muscles
+    second: {fileID: 2100000, guid: cc5a85c75e0e243419311e5a16c5592e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_SkinFace
+    second: {fileID: 2100000, guid: bb44db8271edf4d42b8f4f723d2d2901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_SkinFace_Muscles
+    second: {fileID: 2100000, guid: cc5a85c75e0e243419311e5a16c5592e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_biliary
+    second: {fileID: 2100000, guid: 84f2f808abacb8947917eadcae46cda4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_lLung
+    second: {fileID: 2100000, guid: 50d8bdc57827d044298cc683ab207ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_liver
+    second: {fileID: 2100000, guid: 84f2f808abacb8947917eadcae46cda4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_rLung
+    second: {fileID: 2100000, guid: 50d8bdc57827d044298cc683ab207ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1_spleen
+    second: {fileID: 2100000, guid: 84f2f808abacb8947917eadcae46cda4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_Nipple
+    second: {fileID: 2100000, guid: efd5d344cdc515b4895f4ff8d000c1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_Nipple_Muscles
+    second: {fileID: 2100000, guid: 1c695be514e4427488556d62960e581a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_SkinHead
+    second: {fileID: 2100000, guid: efd5d344cdc515b4895f4ff8d000c1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_SkinHead_Muscles
+    second: {fileID: 2100000, guid: 1c695be514e4427488556d62960e581a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_SkinHip
+    second: {fileID: 2100000, guid: efd5d344cdc515b4895f4ff8d000c1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_SkinHip_Muscles
+    second: {fileID: 2100000, guid: 1c695be514e4427488556d62960e581a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_SkinNeck
+    second: {fileID: 2100000, guid: efd5d344cdc515b4895f4ff8d000c1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_SkinNeck_Muscles
+    second: {fileID: 2100000, guid: 1c695be514e4427488556d62960e581a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_SkinTorso
+    second: {fileID: 2100000, guid: efd5d344cdc515b4895f4ff8d000c1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_SkinTorso_Muscles
+    second: {fileID: 2100000, guid: 1c695be514e4427488556d62960e581a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_adrenal
+    second: {fileID: 2100000, guid: 7a5f5027e4fbcb84abbe698831458d48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_bladder
+    second: {fileID: 2100000, guid: 7a5f5027e4fbcb84abbe698831458d48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_coronary
+    second: {fileID: 2100000, guid: 194beacfa7349434db89f94d4e5915c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_heart
+    second: {fileID: 2100000, guid: 194beacfa7349434db89f94d4e5915c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_kidney
+    second: {fileID: 2100000, guid: 7a5f5027e4fbcb84abbe698831458d48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2_ureter
+    second: {fileID: 2100000, guid: 7a5f5027e4fbcb84abbe698831458d48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_Fingernail
+    second: {fileID: 2100000, guid: 09cb2ae7ab664b049b4ff6d249c44c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinArm
+    second: {fileID: 2100000, guid: 09cb2ae7ab664b049b4ff6d249c44c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinArm_Muscles
+    second: {fileID: 2100000, guid: ac328ecc58d99eb438f417fddd9f7ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinFoot
+    second: {fileID: 2100000, guid: 09cb2ae7ab664b049b4ff6d249c44c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinFoot_Muscles
+    second: {fileID: 2100000, guid: ac328ecc58d99eb438f417fddd9f7ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinForearm
+    second: {fileID: 2100000, guid: 09cb2ae7ab664b049b4ff6d249c44c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinForearm_Muscles
+    second: {fileID: 2100000, guid: ac328ecc58d99eb438f417fddd9f7ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinHand
+    second: {fileID: 2100000, guid: 09cb2ae7ab664b049b4ff6d249c44c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinHand_Muscles
+    second: {fileID: 2100000, guid: ac328ecc58d99eb438f417fddd9f7ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinLeg
+    second: {fileID: 2100000, guid: 09cb2ae7ab664b049b4ff6d249c44c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_SkinLeg_Muscles
+    second: {fileID: 2100000, guid: ac328ecc58d99eb438f417fddd9f7ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_Toenail_Muscles
+    second: {fileID: 2100000, guid: ac328ecc58d99eb438f417fddd9f7ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_gut
+    second: {fileID: 2100000, guid: facfc5e5de093ed4eb9cf64e9711f7d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_larynx
+    second: {fileID: 2100000, guid: f141b0e207128de4483a56f30920bded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_thymus
+    second: {fileID: 2100000, guid: f141b0e207128de4483a56f30920bded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_thyroid
+    second: {fileID: 2100000, guid: f141b0e207128de4483a56f30920bded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_Gums_Muscles
+    second: {fileID: 2100000, guid: e0ad0e338b529d8458caa2a57779ef24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_Teeth
+    second: {fileID: 2100000, guid: e0ad0e338b529d8458caa2a57779ef24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_Tongue
+    second: {fileID: 2100000, guid: e0ad0e338b529d8458caa2a57779ef24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4_colon
+    second: {fileID: 2100000, guid: 6dc8db9f2efcaa44a8217c1ebd7f5864, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_Iris
+    second: {fileID: 2100000, guid: 41f19fb983b5c3a4bb43a02262b4efb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_Iris_Muscles
+    second: {fileID: 2100000, guid: 41f19fb983b5c3a4bb43a02262b4efb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_Lacrimal
+    second: {fileID: 2100000, guid: 7e53ef987727b984d8c1b22137595783, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_Lacrimal_Muscles
+    second: {fileID: 2100000, guid: 7e53ef987727b984d8c1b22137595783, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_Pupil
+    second: {fileID: 2100000, guid: 41f19fb983b5c3a4bb43a02262b4efb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_Pupil_Muscles
+    second: {fileID: 2100000, guid: 41f19fb983b5c3a4bb43a02262b4efb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_Sclera
+    second: {fileID: 2100000, guid: 41f19fb983b5c3a4bb43a02262b4efb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_Sclera_Muscles
+    second: {fileID: 2100000, guid: 41f19fb983b5c3a4bb43a02262b4efb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_ovary
+    second: {fileID: 2100000, guid: a421054527d13c94393c458fad27d25a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_uterus
+    second: {fileID: 2100000, guid: a421054527d13c94393c458fad27d25a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_Tear
+    second: {fileID: 2100000, guid: 07b4add3f2a9c2545abae6e517d846e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_Tear_Muscles
+    second: {fileID: 2100000, guid: b2e39ddd218e32240b2a2ce7a23f2bf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArmsHands
+    second: {fileID: 2100000, guid: 1c8037e1a69d7c14fa61b9dc69aa612f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrainStem.001
+    second: {fileID: 2100000, guid: 4e3ffff172dc6cc4d8e966392738d758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cerebellum.001
+    second: {fileID: 2100000, guid: 4e3ffff172dc6cc4d8e966392738d758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CorpusCallosum.001
+    second: {fileID: 2100000, guid: 4e3ffff172dc6cc4d8e966392738d758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cranium
+    second: {fileID: 2100000, guid: 203400ff70f6ad644a23cedd4e5637d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Discs
+    second: {fileID: 2100000, guid: beb0ae043640006458b7be152ab29e57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HipCartilage
+    second: {fileID: 2100000, guid: d55c383c70454244ab6f79a721e14247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HipsLegs
+    second: {fileID: 2100000, guid: fa8206a2e2cc36f419f5e5d85968fbab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hyoid
+    second: {fileID: 2100000, guid: 5658c31804e8f624fb3db4414e522318, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftCerebrum.001
+    second: {fileID: 2100000, guid: 4e3ffff172dc6cc4d8e966392738d758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mandible
+    second: {fileID: 2100000, guid: b2371d138d63c82418ecec15a4dbe894, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Olfactory.001
+    second: {fileID: 2100000, guid: 4e3ffff172dc6cc4d8e966392738d758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pituitary.001
+    second: {fileID: 2100000, guid: 4e3ffff172dc6cc4d8e966392738d758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RibCartilage
+    second: {fileID: 2100000, guid: 0e7f7954e8ff5e14c8c5cf24a70a3db8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ribs
+    second: {fileID: 2100000, guid: d735646cfb8e7af4eb5024c5e773e259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightCerebrum.001
+    second: {fileID: 2100000, guid: 4e3ffff172dc6cc4d8e966392738d758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sacrum
+    second: {fileID: 2100000, guid: 7e222b250c115af4a9b62e4fe2e8a9ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spine
+    second: {fileID: 2100000, guid: 3a1260c9c1e6159488c839ee8aeb53fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sternum
+    second: {fileID: 2100000, guid: 5e531ce461f3182418d2886b96ea711e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lobule
+    second: {fileID: 2100000, guid: 12d64328f4f84b74396615b707e5ebe3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
