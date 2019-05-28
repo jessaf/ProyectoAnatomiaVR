@@ -14,7 +14,9 @@ ModelImporter:
     2000000: Camera
     2100000: No Name
     2300000: Cylinder
+    2300002: //RootNode
     3300000: Cylinder
+    3300002: //RootNode
     4300000: Cylinder
     10800000: Lamp
     2186277476908879412: ImportLogs
@@ -49,7 +51,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.05
+    globalScale: 0.03
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

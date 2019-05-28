@@ -7,21 +7,42 @@ ModelImporter:
     100002: Monitor
     100004: Pantalla
     100006: //RootNode
+    100008: Camera
+    100010: gabinete
+    100012: Lamp
+    100014: NurbsCircle
     400000: Brazo
     400002: Monitor
     400004: Pantalla
     400006: //RootNode
+    400008: Camera
+    400010: gabinete
+    400012: Lamp
+    400014: NurbsCircle
+    2000000: Camera
     2100000: Material
     2100002: Material.003
+    2100004: Material.002
+    2100006: Metal
+    2100008: Material.001
+    2100010: plasticoazul
     2300000: Brazo
     2300002: Monitor
     2300004: Pantalla
+    2300006: gabinete
+    2300008: NurbsCircle
     3300000: Brazo
     3300002: Monitor
     3300004: Pantalla
+    3300006: gabinete
+    3300008: NurbsCircle
     4300000: Pantalla
     4300002: Brazo
     4300004: Monitor
+    4300006: NurbsCircle
+    4300008: gabinete
+    10800000: Lamp
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
