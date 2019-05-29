@@ -139,6 +139,16 @@ ModelImporter:
     100266: 04_Hemisferio cerebral derecho
     100268: 04_Hemisferio cerebral Izquierdo
     100270: "05_Tr\xE1quea"
+    100272: 01_Antebrazo der
+    100274: 01_Antebrazo izq
+    100276: 01_Brazo der
+    100278: 01_Brazo izq
+    100280: 01_Mano der
+    100282: 01_Mano izq
+    100284: 01_Pie der
+    100286: 01_Pie izq
+    100288: Camera
+    100290: Lamp
     400000: 01_Antebrazo
     400002: 01_Brazo
     400004: 01_Cabeza
@@ -275,6 +285,17 @@ ModelImporter:
     400266: 04_Hemisferio cerebral derecho
     400268: 04_Hemisferio cerebral Izquierdo
     400270: "05_Tr\xE1quea"
+    400272: 01_Antebrazo der
+    400274: 01_Antebrazo izq
+    400276: 01_Brazo der
+    400278: 01_Brazo izq
+    400280: 01_Mano der
+    400282: 01_Mano izq
+    400284: 01_Pie der
+    400286: 01_Pie izq
+    400288: Camera
+    400290: Lamp
+    2000000: Camera
     2100000: 3_SkinHand_MichaelSkin
     2100002: 5_Lacrimal_MichaelSkin
     2100004: 3_larynx.002
@@ -497,6 +518,14 @@ ModelImporter:
     2300264: 04_Hemisferio cerebral derecho
     2300266: 04_Hemisferio cerebral Izquierdo
     2300268: "05_Tr\xE1quea"
+    2300270: 01_Antebrazo der
+    2300272: 01_Antebrazo izq
+    2300274: 01_Brazo der
+    2300276: 01_Brazo izq
+    2300278: 01_Mano der
+    2300280: 01_Mano izq
+    2300282: 01_Pie der
+    2300284: 01_Pie izq
     3300000: 01_Antebrazo
     3300002: 01_Brazo
     3300004: 01_Cabeza
@@ -632,6 +661,14 @@ ModelImporter:
     3300264: 04_Hemisferio cerebral derecho
     3300266: 04_Hemisferio cerebral Izquierdo
     3300268: "05_Tr\xE1quea"
+    3300270: 01_Antebrazo der
+    3300272: 01_Antebrazo izq
+    3300274: 01_Brazo der
+    3300276: 01_Brazo izq
+    3300278: 01_Mano der
+    3300280: 01_Mano izq
+    3300282: 01_Pie der
+    3300284: 01_Pie izq
     4300000: 02_Mano
     4300002: 01_Lacrimal
     4300004: 05_Laringe
@@ -767,6 +804,14 @@ ModelImporter:
     4300264: "03_V\xE9tebras Tor\xE1cicas"
     4300266: 03_Falanges
     4300268: 04_Hemisferio cerebral derecho
+    4300270: 01_Pie izq
+    4300272: 01_Mano izq
+    4300274: 01_Antebrazo izq
+    4300276: 01_Brazo izq
+    4300278: 01_Brazo der
+    4300280: 01_Mano der
+    4300282: 01_Pie der
+    4300284: 01_Antebrazo der
     6400000: 01_Antebrazo
     6400002: 01_Brazo
     6400004: 01_Cabeza
@@ -902,6 +947,15 @@ ModelImporter:
     6400264: 04_Hemisferio cerebral derecho
     6400266: 04_Hemisferio cerebral Izquierdo
     6400268: "05_Tr\xE1quea"
+    6400270: 01_Antebrazo der
+    6400272: 01_Antebrazo izq
+    6400274: 01_Brazo der
+    6400276: 01_Brazo izq
+    6400278: 01_Mano der
+    6400280: 01_Mano izq
+    6400282: 01_Pie der
+    6400284: 01_Pie izq
+    10800000: Lamp
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -1368,7 +1422,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.5
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
