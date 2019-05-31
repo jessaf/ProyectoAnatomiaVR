@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Assertions;
 
 // Loads Sample Scenes
 public class StartMenu : MonoBehaviour
@@ -9,22 +10,19 @@ public class StartMenu : MonoBehaviour
     public OVROverlay overlay;
     public OVROverlay text;
     public OVRCameraRig vrRig;
+    private Text sliderText;
 
     void Start()
     {
         DebugUIBuilder.instance.AddLabel("Selecciona una modalidad");
         DebugUIBuilder.instance.AddButton("Aprendizaje libre", LoadAprendizaje);
         DebugUIBuilder.instance.AddButton("Prueba de aprendizaje", LoadPrueba);
-        /*
-        DebugUIBuilder.instance.AddButton("Custom Hands", LoadCustomHands);
-        DebugUIBuilder.instance.AddButton("Debug UI", LoadDebugUI);
-        DebugUIBuilder.instance.AddButton("Distance Grab", LoadDistanceGrab);
-        DebugUIBuilder.instance.AddButton("Guardian Boundary System", LoadGuardianBoundarySystem);
-        DebugUIBuilder.instance.AddButton("Locomotion", LoadLocomotion);
-        DebugUIBuilder.instance.AddButton("Mixed Reality Capture", LoadMixedRealityCapture);
-        DebugUIBuilder.instance.AddButton("OVR Overlay", LoadOVROverlay);
-         */
-        
+        var sliderPrefab = DebugUIBuilder.instance.AddSlider("Slider", 1.0f, 10.0f, SliderPressed, true);
+        var textElementsInSlider = sliderPrefab.GetComponentsInChildren<Text>();
+        sliderText = textElementsInSlider[1];
+        Assert.IsNotNull(sliderText, "No text component on slider prefab");
+        sliderText.text = sliderPrefab.GetComponentInChildren<Slider>().value.ToString();
+
         DebugUIBuilder.instance.Show();
     }
 
@@ -33,6 +31,12 @@ public class StartMenu : MonoBehaviour
     {
         DebugUIBuilder.instance.Hide();
         StartCoroutine(ShowOverlayAndLoad(sceneName));
+    }
+
+    public void SliderPressed(float f)
+    {
+        Debug.Log("Slider: " + f);
+        sliderText.text = f.ToString();
     }
 
     IEnumerator ShowOverlayAndLoad(string sceneName)
@@ -60,33 +64,6 @@ public class StartMenu : MonoBehaviour
     {
         LoadScene("TestScene");
     }
-    void LoadCustomHands()
-    {
-        LoadScene("CustomHands");
-    }
-    void LoadDebugUI()
-    {
-        LoadScene("DebugUI");
-    }
-    void LoadDistanceGrab()
-    {
-        LoadScene("DistanceGrab");
-    }
-    void LoadGuardianBoundarySystem()
-    {
-        LoadScene("GuardianBoundarySystem");
-    }
-    void LoadLocomotion()
-    {
-        LoadScene("Locomotion");
-    }
-    void LoadMixedRealityCapture()
-    {
-        LoadScene("MixedRealityCapture");
-    }
-    void LoadOVROverlay()
-    {
-        LoadScene("OVROverlay");
-    }
+    
     #endregion
 }
