@@ -1,68 +1,25 @@
 fileFormatVersion: 2
-guid: b47b8aa95094af4498946d1ddbfbd48b
+guid: 68fd39e706cc82d4d98737528bc08754
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: default
-    400000: //RootNode
-    400002: default
+    100000: default
+    100002: //RootNode
+    400000: default
+    400002: //RootNode
     2100000: defaultMat
-    2100002: Material.056
-    2100004: Material.345
-    2100006: Material.346
-    2100008: Material.347
-    2100010: Material.348
-    2100012: Material.350
-    2100014: Material.351
     2300000: default
     3300000: default
     4300000: default
-    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.056
-    second: {fileID: 2100000, guid: e13430290a665694284c7ffa3a01d9cd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.345
-    second: {fileID: 2100000, guid: 42e4d776acd0af54eaa92d5c2c681b44, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.346
-    second: {fileID: 2100000, guid: c3eb62c7ae441684ebce10850ce99c36, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.347
-    second: {fileID: 2100000, guid: e297320248291a74b9ed0b7be6c81fa6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.348
-    second: {fileID: 2100000, guid: e915b3ca7a9ce774f91040aa2d2bb86d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.350
-    second: {fileID: 2100000, guid: fb11281de0756f74689d149674fdb82d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.351
-    second: {fileID: 2100000, guid: d470991a2922eff43b8a9fdaa14cc859, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: defaultMat
-    second: {fileID: 2100000, guid: 5def2e98abf7702489dcef2ecaed0dc1, type: 2}
+    second: {fileID: 2100000, guid: 3cb8172b4f393944295e6584397f2219, type: 2}
   materials:
     importMaterials: 1
-    materialName: 2
+    materialName: 0
     materialSearch: 1
     materialLocation: 1
   animations:
