@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: ff8d1d799af20ca4b8c613d738d0173c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Clinton IV Stand 5 leg PORTABLE [188307]
+    100002: //RootNode
+    100004: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    400000: Clinton IV Stand 5 leg PORTABLE [188307]
+    400002: //RootNode
+    400004: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    2100000: Generic
+    2100002: Black Rubber Wheel.001
+    2100004: UMF - Blue Kick Plate
+    2100006: Clinton IV Pole - Black Plastic
+    2100008: Metal - Chrome
+    2100010: Plastic IV Bag
+    2100012: Metal - Knurled Stainless Steel
+    2100014: Clinton IV Pole - Charcoal Plastic
+    2300000: Clinton IV Stand 5 leg PORTABLE [188307]
+    2300002: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    3300000: Clinton IV Stand 5 leg PORTABLE [188307]
+    3300002: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    4300000: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    4300002: Clinton IV Stand 5 leg PORTABLE [188307]
+    7400000: 'UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Basic Wall Exterior
+      - Brick and CMU on MTL. Stud [190762]|Take '
+    7400002: 'UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Basic Wall Exterior
+      - Brick and CMU on MTL. Stud [190763]|Take '
+    7400004: 'UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Basic Wall Exterior
+      - Brick and CMU on MTL. Stud [190764]|Take '
+    7400006: 'UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Basic Wall Exterior
+      - Brick and CMU on MTL. Stud [190765]|Take '
+    7400008: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Camera001|Take
+      001|BaseLayer
+    7400010: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Camera002|Take
+      001|BaseLayer
+    7400012: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Camera003|Take
+      001|BaseLayer
+    7400014: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Camera004|Take
+      001|BaseLayer
+    7400016: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Clinton IV Stand
+      5 leg PORTABLE [188307]|Take 001|BaseLayer
+    7400018: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Compass001|Take
+      001|BaseLayer
+    7400020: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Daylight001|Take
+      001|BaseLayer
+    7400022: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Floor Floor -
+      Vinyl 1 [181833]|Take 001|BaseLayer
+    7400024: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Floor Floor -
+      Vinyl 2 [181864]|Take 001|BaseLayer
+    7400026: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Floor Wood Joist
+      10" - Ceramic Tile [181732]|Take 001|BaseLayer
+    7400028: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Project 3.rvt|Take
+      001|BaseLayer
+    7400030: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F7F740_0|Take
+      001|BaseLayer
+    7400032: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F7F7A8_0|Take
+      001|BaseLayer
+    7400034: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F7FA80_0|Take
+      001|BaseLayer
+    7400036: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F7FC88_0|Take
+      001|BaseLayer
+    7400038: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F7FD58_0|Take
+      001|BaseLayer
+    7400040: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F7FDC0_0|Take
+      001|BaseLayer
+    7400042: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F7FFC8_0|Take
+      001|BaseLayer
+    7400044: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F80030_0|Take
+      001|BaseLayer
+    7400046: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F80098_0|Take
+      001|BaseLayer
+    7400048: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F80238_0|Take
+      001|BaseLayer
+    7400050: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F80370_0|Take
+      001|BaseLayer
+    7400052: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|S0000000042F803D8_0|Take
+      001|BaseLayer
+    7400054: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Sky002|Take 001|BaseLayer
+    7400056: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|Sun002|Take 001|BaseLayer
+    7400058: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|UMF SS8350 Bucket
+      13qt UMF SS8350 Bucket 13qt [183708]|Take 001
+    7400060: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|UMF SS8350 Bucket
+      Only 13qt UMF SS8350 Bucket Only 13qt [186915
+    7400062: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]|UMF SS8350 Bucket
+      UMF SS8350 Bucket [185336]|Take 001|BaseLayer
+    7400064: 'Clinton IV Stand 5 leg PORTABLE [188307]|Basic Wall Exterior - Brick
+      and CMU on MTL. Stud [190762]|Take '
+    7400066: 'Clinton IV Stand 5 leg PORTABLE [188307]|Basic Wall Exterior - Brick
+      and CMU on MTL. Stud [190763]|Take '
+    7400068: 'Clinton IV Stand 5 leg PORTABLE [188307]|Basic Wall Exterior - Brick
+      and CMU on MTL. Stud [190764]|Take '
+    7400070: 'Clinton IV Stand 5 leg PORTABLE [188307]|Basic Wall Exterior - Brick
+      and CMU on MTL. Stud [190765]|Take '
+    7400072: Clinton IV Stand 5 leg PORTABLE [188307]|Camera001|Take 001|BaseLayer
+    7400074: Clinton IV Stand 5 leg PORTABLE [188307]|Camera002|Take 001|BaseLayer
+    7400076: Clinton IV Stand 5 leg PORTABLE [188307]|Camera003|Take 001|BaseLayer
+    7400078: Clinton IV Stand 5 leg PORTABLE [188307]|Camera004|Take 001|BaseLayer
+    7400080: Clinton IV Stand 5 leg PORTABLE [188307]|Clinton IV Stand 5 leg PORTABLE
+      [188307]|Take 001|BaseLayer
+    7400082: Clinton IV Stand 5 leg PORTABLE [188307]|Compass001|Take 001|BaseLayer
+    7400084: Clinton IV Stand 5 leg PORTABLE [188307]|Daylight001|Take 001|BaseLayer
+    7400086: Clinton IV Stand 5 leg PORTABLE [188307]|Floor Floor - Vinyl 1 [181833]|Take
+      001|BaseLayer
+    7400088: Clinton IV Stand 5 leg PORTABLE [188307]|Floor Floor - Vinyl 2 [181864]|Take
+      001|BaseLayer
+    7400090: Clinton IV Stand 5 leg PORTABLE [188307]|Floor Wood Joist 10" - Ceramic
+      Tile [181732]|Take 001|BaseLayer
+    7400092: Clinton IV Stand 5 leg PORTABLE [188307]|Project 3.rvt|Take 001|BaseLayer
+    7400094: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F7F740_0|Take 001|BaseLayer
+    7400096: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F7F7A8_0|Take 001|BaseLayer
+    7400098: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F7FA80_0|Take 001|BaseLayer
+    7400100: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F7FC88_0|Take 001|BaseLayer
+    7400102: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F7FD58_0|Take 001|BaseLayer
+    7400104: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F7FDC0_0|Take 001|BaseLayer
+    7400106: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F7FFC8_0|Take 001|BaseLayer
+    7400108: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F80030_0|Take 001|BaseLayer
+    7400110: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F80098_0|Take 001|BaseLayer
+    7400112: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F80238_0|Take 001|BaseLayer
+    7400114: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F80370_0|Take 001|BaseLayer
+    7400116: Clinton IV Stand 5 leg PORTABLE [188307]|S0000000042F803D8_0|Take 001|BaseLayer
+    7400118: Clinton IV Stand 5 leg PORTABLE [188307]|Sky002|Take 001|BaseLayer
+    7400120: Clinton IV Stand 5 leg PORTABLE [188307]|Sun002|Take 001|BaseLayer
+    7400122: Clinton IV Stand 5 leg PORTABLE [188307]|UMF SS8350 Bucket 13qt UMF SS8350
+      Bucket 13qt [183708]|Take 001
+    7400124: Clinton IV Stand 5 leg PORTABLE [188307]|UMF SS8350 Bucket Only 13qt
+      UMF SS8350 Bucket Only 13qt [186915
+    7400126: Clinton IV Stand 5 leg PORTABLE [188307]|UMF SS8350 Bucket UMF SS8350
+      Bucket [185336]|Take 001|BaseLayer
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.015
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
