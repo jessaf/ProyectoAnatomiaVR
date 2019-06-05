@@ -306,6 +306,89 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 44302300}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &212461784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212461785}
+  - component: {fileID: 212461787}
+  - component: {fileID: 212461786}
+  m_Layer: 5
+  m_Name: Text3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &212461785
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212461784}
+  m_LocalRotation: {x: 0.026267696, y: -0.0014593896, z: 0.0042537143, w: 0.9996449}
+  m_LocalPosition: {x: 0, y: 0, z: 0.021}
+  m_LocalScale: {x: 0.0026556952, y: 0.002545748, z: 1}
+  m_Children: []
+  m_Father: {fileID: 623864026}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 3.0110002, y: -0.155, z: 0.48400003}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.002, y: 0.009}
+  m_SizeDelta: {x: 356.5, y: 371.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &212461786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212461784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.24204202, g: 0.08397116, b: 0.1882353, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "El sistema \xF3seo est\xE1 conformado por los huesos y el esqueleto, por
+    huesos y cart\xEDlagos. Existen 206 huesos y estos son de diferentes tama\xF1os
+    y formas.\r\n\r\nAlgunos pueden ser huesos diminutos como los que est\xE1n en
+    el o\xEDdo.  Tambi\xE9n hay huesos largos, entre ellos el m\xE1s largo del cuerpo
+    humano es el f\xE9mur que puede medir hasta 60 cm."
+--- !u!222 &212461787
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212461784}
+  m_CullTransparentMesh: 0
 --- !u!1001 &308509265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -452,7 +535,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 357243526}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 368271142}
+        m_MethodName: TextChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &357243526
@@ -637,6 +731,7 @@ GameObject:
   - component: {fileID: 368271139}
   - component: {fileID: 368271141}
   - component: {fileID: 368271140}
+  - component: {fileID: 368271142}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -702,6 +797,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368271138}
   m_CullTransparentMesh: 0
+--- !u!114 &368271142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368271138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55907dc057ac83541a2acc61d0ea643a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changingText: {fileID: 784826231}
+  changingTextTwo: {fileID: 622223918}
 --- !u!1 &476359892
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,6 +872,7 @@ GameObject:
   - component: {fileID: 490202358}
   - component: {fileID: 490202357}
   - component: {fileID: 490202359}
+  - component: {fileID: 490202360}
   m_Layer: 5
   m_Name: ButtonPrev
   m_TagString: Untagged
@@ -868,6 +978,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &490202360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490202355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55907dc057ac83541a2acc61d0ea643a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changingText: {fileID: 784826231}
+  changingTextTwo: {fileID: 212461784}
 --- !u!20 &543814276 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2015248, guid: ce816f2e6abb0504092c23ed9b970dfd,
@@ -988,6 +1112,165 @@ Transform:
   m_Father: {fileID: 95546930}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &622223918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622223921}
+  - component: {fileID: 622223920}
+  - component: {fileID: 622223919}
+  m_Layer: 5
+  m_Name: Text2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &622223919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622223918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.24204202, g: 0.08397116, b: 0.1882353, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Sistema muscular-Es el conjunto de m\xE1s de 650 m\xFAsculos del cuerpo,
+    cuya funci\xF3n primordial es generar movimiento, ya sea voluntario o involuntario,(m\xFAsculos
+    esquel\xE9ticos y viscerales).  Aproximadamente el 40% del cuerpo humano est\xE1
+    formado por m\xFAsculos"
+--- !u!222 &622223920
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622223918}
+  m_CullTransparentMesh: 0
+--- !u!224 &622223921
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622223918}
+  m_LocalRotation: {x: 0.026267696, y: -0.0014593896, z: 0.0042537143, w: 0.9996449}
+  m_LocalPosition: {x: 0, y: 0, z: 0.021}
+  m_LocalScale: {x: 0.0026556952, y: 0.002545748, z: 1}
+  m_Children: []
+  m_Father: {fileID: 623864026}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 3.0110002, y: -0.155, z: 0.48400003}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.001, y: 0.039}
+  m_SizeDelta: {x: 356.5, y: 323.06}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &623864023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 623864026}
+  - component: {fileID: 623864025}
+  - component: {fileID: 623864024}
+  m_Layer: 5
+  m_Name: PanelTV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &623864024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623864023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.047169805, g: 0.0055624763, b: 0.0055624763, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &623864025
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623864023}
+  m_CullTransparentMesh: 0
+--- !u!224 &623864026
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623864023}
+  m_LocalRotation: {x: 0.020177227, y: 0.82944506, z: 0.0142668905, w: 0.5580415}
+  m_LocalPosition: {x: 0, y: 0, z: -2.9739556}
+  m_LocalScale: {x: 0.72465014, y: 0.3742778, z: 1}
+  m_Children:
+  - {fileID: 784826230}
+  - {fileID: 622223921}
+  - {fileID: 212461785}
+  m_Father: {fileID: 1068820475}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.066, y: 112.134, z: 2.831}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 2.961, y: 2.097}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &658959547 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100034, guid: e72398468b5a32440a64b693a21d54d1,
@@ -1271,6 +1554,14 @@ PrefabInstance:
     - target: {fileID: 100044, guid: e72398468b5a32440a64b693a21d54d1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: e72398468b5a32440a64b693a21d54d1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: e72398468b5a32440a64b693a21d54d1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100050, guid: e72398468b5a32440a64b693a21d54d1, type: 3}
       propertyPath: m_IsActive
@@ -1864,14 +2155,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 100046, guid: e72398468b5a32440a64b693a21d54d1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100048, guid: e72398468b5a32440a64b693a21d54d1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6400174, guid: e72398468b5a32440a64b693a21d54d1, type: 3}
     - {fileID: 6400008, guid: e72398468b5a32440a64b693a21d54d1, type: 3}
@@ -2288,6 +2571,87 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   labelMesh: {fileID: 1678162139}
+--- !u!1 &784826229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 784826230}
+  - component: {fileID: 784826232}
+  - component: {fileID: 784826231}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &784826230
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784826229}
+  m_LocalRotation: {x: 0.026267694, y: -0.0014594196, z: 0.004253709, w: 0.9996449}
+  m_LocalPosition: {x: 0, y: 0, z: 0.021000117}
+  m_LocalScale: {x: 0.0026557872, y: 0.0025531533, z: 1.0028812}
+  m_Children: []
+  m_Father: {fileID: 623864026}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.0110002, y: -0.155, z: 0.48400003}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0010008812, y: 0.038999796}
+  m_SizeDelta: {x: 356.5, y: 294.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &784826231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784826229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.24204202, g: 0.08397116, b: 0.1882353, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "La piel es el \xF3rgano m\xE1s grande del cuerpo. La piel y sus derivados
+    (cabello, u\xF1as y gl\xE1ndulas seb\xE1ceas y sudor\xEDparas), conforman el sistema
+    tegumentario. Entre las principales funciones de la piel est\xE1 la protecci\xF3n. "
+--- !u!222 &784826232
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784826229}
+  m_CullTransparentMesh: 0
 --- !u!1 &817649135 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: e72398468b5a32440a64b693a21d54d1,
@@ -2677,6 +3041,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 368271139}
+  - {fileID: 623864026}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
